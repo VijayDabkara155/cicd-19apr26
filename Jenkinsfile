@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/cicd-nginx:latest"
+        DOCKER_IMAGE = "vijaydabkara/nginx-cicd:latest"
     }
 
     stages {
